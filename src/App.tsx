@@ -47,7 +47,7 @@ const PROJECTS: ProjectDetails[] = [
     ],
     capabilities: ["시스템 레벨 검증 능력", "인터페이스 기반 시험 대응"],
     icon: <Star className="text-ink/10" size={120} strokeWidth={0.5} />,
-    image: "https://images.unsplash.com/photo-1617469771020-821dd3348d5f?auto=format&fit=crop&q=80&w=800"
+    image: "https://raw.githubusercontent.com/Jaihun-Kim/portfolio/df9ad128e70e6c2b7113d2809267d71e0c4170f7/Display.png"
   },
   {
     id: "usb-pd-100",
@@ -67,7 +67,7 @@ const PROJECTS: ProjectDetails[] = [
     ],
     capabilities: ["전원 회로 이해", "전력 기반 시험 경험"],
     icon: <Zap className="text-ink/10" size={120} strokeWidth={0.5} />,
-    image: "https://images.unsplash.com/photo-1593121925328-369ec8459c1c?auto=format&fit=crop&q=80&w=800"
+    image: "https://raw.githubusercontent.com/Jaihun-Kim/portfolio/df9ad128e70e6c2b7113d2809267d71e0c4170f7/USB%20PD.png"
   },
   {
     id: "wireless-15",
@@ -87,7 +87,7 @@ const PROJECTS: ProjectDetails[] = [
     ],
     capabilities: ["전력 전달 구조 이해", "시스템 검증 경험"],
     icon: <Sparkles className="text-ink/10" size={120} strokeWidth={0.5} />,
-    image: "https://images.unsplash.com/photo-1616348436168-de43ad0db179?auto=format&fit=crop&q=80&w=800"
+    image: "https://raw.githubusercontent.com/Jaihun-Kim/portfolio/df9ad128e70e6c2b7113d2809267d71e0c4170f7/Wireless.jpg"
   },
   {
     id: "als-jig",
@@ -483,8 +483,8 @@ export default function App() {
           
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
              {[
-               { category: "Validation", title: "전장 Display Audio 시스템의 신뢰성 검증 및 신호 분석 프로세스", image: "https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&q=80&w=800", icon: <Star size={40} className="opacity-10" /> },
-               { category: "Power", title: "USB PD 100W 고출력 전원 회로의 발열 최적화 및 보호 구조 설계", image: "https://images.unsplash.com/photo-1620288627223-53302f4e8c70?auto=format&fit=crop&q=80&w=800", icon: <Zap size={40} className="opacity-10" /> },
+               { category: "Validation", title: "전장 Display Audio 시스템의 신뢰성 검증 및 신호 분석 프로세스", image: "https://raw.githubusercontent.com/Jaihun-Kim/portfolio/df9ad128e70e6c2b7113d2809267d71e0c4170f7/Display.png", icon: <Star size={40} className="opacity-10" /> },
+               { category: "Power", title: "USB PD 100W 고출력 전원 회로의 발열 최적화 및 보호 구조 설계", image: "https://raw.githubusercontent.com/Jaihun-Kim/portfolio/df9ad128e70e6c2b7113d2809267d71e0c4170f7/USB%20PD.png", icon: <Zap size={40} className="opacity-10" /> },
                { category: "Manufacturing", title: "FFC 인터페이스 기반 양산 검사 지그 설계 및 테스트 자동화 전략", image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=800", icon: <Sparkles size={40} className="opacity-10" /> }
              ].map((post, idx) => (
                <div key={idx} className="relative cursor-pointer">
